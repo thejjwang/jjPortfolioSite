@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/sampleLogo.webp';
+import logo from '../assets/Logo2.png';
 import { FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
