@@ -1,5 +1,5 @@
-import React from 'react'
 import profilePic from '../assets/sampleProfile.webp'
+import { HERO_CONTENT } from '../constants'
 
 const Hero = () => {
   return (
@@ -13,7 +13,12 @@ const Hero = () => {
             <div className='flex flex-col items-center lg:items-start mt-10'>
                 <h2 className='pb-2 text-4xl tracking-tighter lg:text-8xl'>JJ Wang</h2>
                 <span className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent'>Full Stack Developer</span>
-                <p className='my-2'></p>
+                <p className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter'>
+                    {HERO_CONTENT}
+                </p>
+                <a>
+
+                </a>
             </div>
         </div>
     </div>
