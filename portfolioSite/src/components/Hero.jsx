@@ -1,16 +1,38 @@
 import profilePic from "../assets/Profile.jpg";
 import { HERO_CONTENT } from "../constants";
+import { motion } from "framer-motion";
 
+const containerVariants = {
+  hidden: { opacity: 0, x: -100 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.5,
+      staggerChildren: 0.5,
+    }
+  }
+}
+
+const childVariants = {
+  hidden: { opacity: 0, x: -100},
+  visible: { opacity: 1, x:0, transition: { duration: 0.5 }}
+}
 const Hero = () => {
   return (
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
-            <img
+            <motion.img
               src={profilePic}
               alt="JJ Wang"
               className="border border-stone-900 rounded-3xl"
+              width={650}
+              height={650}
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.5 }}
             />
           </div>
         </div>
