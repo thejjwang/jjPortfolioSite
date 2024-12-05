@@ -9,33 +9,36 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Full Stack Developer",
-    company: "Google",
-    description: `.......................................`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024 - Present",
+    role: "Developer/Project Manager",
+    company: "ANTEMATTR",
+    description: `● Developed tools and automated workflows for agents using Flowise and n8n, enhancing efficiency and functionality.
+    ● Designed and implemented custom functions to support advanced agent operations.
+    ● Collaborated with team members to integrate new tools into existing systems seamlessly.
+    ● Produce mockups for components and pages using Figma to guide through the development process
+    ● Employ Agile methodologies and utilize Jira software to manage and track project progress
+    `,
+    technologies: ["Javascript", "Jira", "n8n", "Flowise", "Framer", "AWS", "Figma"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "April 2023",
+    role: "Full/MERN Stack Developer",
+    company: "Innovation Labs",
+    description: `● Developed a full stack task manager app with full CRUD operations and user authentication using the MERN stack
+    ● Built an intuitive Single Page Application in React using components, hooks, and context API, React Router for the front end
+    ● Created RESTful APIs using Node.js and Express.js for full back end CRUD operations
+    ● Integrated MongoDB database and Mongoose ORM to store task documents. Set up models and schemas for easy data management`,
+    technologies: ["HTML", "CSS", "Javascript", "React.js", "Node.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "May 2022 - August 2022",
+    role: "Intern",
+    company: "Meritronics",
+    description: `● Developed and implemented user-friendly quality data forms and reports, streamlining data collection and analysis processes
+    ● Designed and delivered a visually intuitive Quality Metrics TV Dashboard, providing real-time insights and enhancing decision-making capabilities
+    ● Created a responsive Daily Production Schedule Web App, optimizing resource allocation and increasing operational efficiency`,
+    technologies: ["Azure", "MS Office Suite, MISys, QuickBooks"],
+  }
 ];
 
 export const PROJECTS = [
@@ -70,7 +73,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Saratoga CA",
   phoneNo: "+1 408 507 2445 ",
   email: "jonathanjacobwang@gmail.com",
 };
