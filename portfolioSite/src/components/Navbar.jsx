@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo2.png";
 import { FaLinkedin, FaInstagram, FaGithub, FaFacebook } from "react-icons/fa";
 
 const Navbar = () => {
