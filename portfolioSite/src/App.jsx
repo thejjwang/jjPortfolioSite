@@ -18,6 +18,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Experience />
+        <Contact />
       </div>
     </div>
   );
