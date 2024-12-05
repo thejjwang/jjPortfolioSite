@@ -1,4 +1,4 @@
-import profilePic from "../assets/sampleProfile.webp";
+import profilePic from "../assets/Profile.jpg";
 import { HERO_CONTENT } from "../constants";
 
 const Hero = () => {
