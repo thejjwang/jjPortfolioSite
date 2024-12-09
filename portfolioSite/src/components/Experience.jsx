@@ -6,7 +6,7 @@ const Experience = () => {
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
-        transtion={{ duration: 1.5 }}
+        transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
         Experience
@@ -17,7 +17,7 @@ const Experience = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transtion={{ duration: 3 }}
+              transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
               <p className="mb-2 text-sm text-stone-400">{experience.year}</p>
@@ -25,7 +25,7 @@ const Experience = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transtion={{ duration: 3 }}
+              transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
               <h3 className="mb-2 font-semibold">
