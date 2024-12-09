@@ -45,6 +45,14 @@ const Technologies = () => {
           className='p-4'
         >
           <RiReactjsLine className="text-7xl text-cyan-400 hover:scale-110 hover:shadow-lg" />
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            React.js
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -53,6 +61,14 @@ const Technologies = () => {
           className="p-4"
         >
           <TbBrandNextjs className="text-7xl hover:scale-110 hover:shadow-lg" />
+          <a
+            href="https://nextjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            Next.js
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -61,6 +77,14 @@ const Technologies = () => {
           className="p-4"
         >
           <FaNodeJs className="text-7xl text-cyan-500 hover:scale-110 hover:shadow-lg"></FaNodeJs>
+          <a
+            href="https://nodejs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            Node.js
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -69,6 +93,14 @@ const Technologies = () => {
           className="p-4"
         >
           <TbBrandTypescript className="text-7xl text-blue-500 hover:scale-110 hover:shadow-lg"></TbBrandTypescript>
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            TypeScript
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -77,6 +109,14 @@ const Technologies = () => {
           className="p-4"
         >
           <TiHtml5 className="text-7xl text-orange-500 hover:scale-110 hover:shadow-lg"></TiHtml5>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            HTML5
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -85,6 +125,14 @@ const Technologies = () => {
           className="p-4"
         >
           <MdCss className="text-7xl text-blue-500 hover:scale-110 hover:shadow-lg"></MdCss>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            CSS
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -93,6 +141,14 @@ const Technologies = () => {
           className="p-4"
         >
           <SiExpress className="text-7xl text-white hover:scale-110 hover:shadow-lg"></SiExpress>
+          <a
+            href="https://expressjs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            Express.js
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -101,6 +157,14 @@ const Technologies = () => {
           className="p-4"
         >
           <SiMongodb className="text-7xl text-green-600 hover:scale-110 hover:shadow-lg"></SiMongodb>
+          <a
+            href="https://www.mongodb.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            MongoDB
+          </a>
         </motion.div>
         <motion.div
           initial="initial"
@@ -109,6 +173,14 @@ const Technologies = () => {
           className="p-4"
         >
           <FaAws className="text-7xl text-white hover:scale-110 hover:shadow-lg"></FaAws>
+          <a
+            href="https://aws.amazon.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            AWS
+          </a>
         </motion.div>
       </motion.div>
     </div>
