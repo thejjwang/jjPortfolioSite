@@ -42,8 +42,9 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(2.5)}
+          className='p-4'
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className="text-7xl text-cyan-400 hover:scale-110 hover:shadow-lg" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -51,7 +52,7 @@ const Technologies = () => {
           variants={iconVariants(3)}
           className="p-4"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <TbBrandNextjs className="text-7xl hover:scale-110 hover:shadow-lg" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -59,7 +60,7 @@ const Technologies = () => {
           variants={iconVariants(5)}
           className="p-4"
         >
-          <FaNodeJs className="text-7xl text-cyan-500"></FaNodeJs>
+          <FaNodeJs className="text-7xl text-cyan-500 hover:scale-110 hover:shadow-lg"></FaNodeJs>
         </motion.div>
         <motion.div
           initial="initial"
@@ -67,7 +68,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           className="p-4"
         >
-          <TbBrandTypescript className="text-7xl text-blue-500"></TbBrandTypescript>
+          <TbBrandTypescript className="text-7xl text-blue-500 hover:scale-110 hover:shadow-lg"></TbBrandTypescript>
         </motion.div>
         <motion.div
           initial="initial"
@@ -75,7 +76,7 @@ const Technologies = () => {
           variants={iconVariants(6)}
           className="p-4"
         >
-          <TiHtml5 className="text-7xl text-orange-500"></TiHtml5>
+          <TiHtml5 className="text-7xl text-orange-500 hover:scale-110 hover:shadow-lg"></TiHtml5>
         </motion.div>
         <motion.div
           initial="initial"
@@ -83,7 +84,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           className="p-4"
         >
-          <MdCss className="text-7xl text-blue-500"></MdCss>
+          <MdCss className="text-7xl text-blue-500 hover:scale-110 hover:shadow-lg"></MdCss>
         </motion.div>
         <motion.div
           initial="initial"
@@ -91,7 +92,7 @@ const Technologies = () => {
           variants={iconVariants(3)}
           className="p-4"
         >
-          <SiExpress className="text-7xl text-white"></SiExpress>
+          <SiExpress className="text-7xl text-white hover:scale-110 hover:shadow-lg"></SiExpress>
         </motion.div>
         <motion.div
           initial="initial"
@@ -99,7 +100,7 @@ const Technologies = () => {
           variants={iconVariants(5)}
           className="p-4"
         >
-          <SiMongodb className="text-7xl text-green-600"></SiMongodb>
+          <SiMongodb className="text-7xl text-green-600 hover:scale-110 hover:shadow-lg"></SiMongodb>
         </motion.div>
         <motion.div
           initial="initial"
@@ -107,7 +108,7 @@ const Technologies = () => {
           variants={iconVariants(3)}
           className="p-4"
         >
-          <FaAws className="text-7xl text-white"></FaAws>
+          <FaAws className="text-7xl text-white hover:scale-110 hover:shadow-lg"></FaAws>
         </motion.div>
       </motion.div>
     </div>
