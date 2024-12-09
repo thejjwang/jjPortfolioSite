@@ -48,7 +48,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(3)}
           className="p-4"
         >
           <TbBrandNextjs className="text-7xl" />
@@ -56,7 +56,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(5)}
           className="p-4"
         >
           <FaNodeJs className="text-7xl text-cyan-500"></FaNodeJs>
@@ -64,7 +64,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(2)}
           className="p-4"
         >
           <TbBrandTypescript className="text-7xl text-blue-500"></TbBrandTypescript>
@@ -72,7 +72,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(6)}
           className="p-4"
         >
           <TiHtml5 className="text-7xl text-orange-500"></TiHtml5>
@@ -80,7 +80,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(4)}
           className="p-4"
         >
           <MdCss className="text-7xl text-blue-500"></MdCss>
@@ -88,7 +88,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(3)}
           className="p-4"
         >
           <SiExpress className="text-7xl text-white"></SiExpress>
@@ -96,7 +96,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(5)}
           className="p-4"
         >
           <SiMongodb className="text-7xl text-green-600"></SiMongodb>
@@ -104,7 +104,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(2.5)}
+          variants={iconVariants(3)}
           className="p-4"
         >
           <FaAws className="text-7xl text-white"></FaAws>
