@@ -12,9 +12,9 @@ const Experience = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h3 className="mb-2 font-semibold">
-                {experience.role} - {" "}
+                {experience.role} -{" "}
                 <span className="text-sm text-stone-500">
-                {experience.website ? (
+                  {experience.website ? (
                     <a
                       href={experience.website}
                       target="_blank"

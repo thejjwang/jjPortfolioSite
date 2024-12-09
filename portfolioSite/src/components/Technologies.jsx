@@ -42,7 +42,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           variants={iconVariants(2.5)}
-          className='p-4'
+          className="p-4"
         >
           <RiReactjsLine className="text-7xl text-cyan-400 hover:scale-110 hover:shadow-lg" />
           <a
