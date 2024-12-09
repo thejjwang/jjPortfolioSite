@@ -12,17 +12,20 @@ const Experience = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h3 className="mb-2 font-semibold">
-                {experience.role} -{" "}
+                {experience.role} - {" "}
                 <span className="text-sm text-stone-500">
-                  
-                  <a
-                    href={experience.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className='hover:underline'
-                  >
-                    {experience.company}
-                  </a>
+                {experience.website ? (
+                    <a
+                      href={experience.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {experience.company}
+                    </a>
+                  ) : (
+                    <span>{experience.company}</span>
+                  )}
                 </span>
               </h3>
               <p classname="mb-4 text-stone-400">{experience.description}</p>
