@@ -12,6 +12,7 @@ export const EXPERIENCES = [
     year: "May 2024 - Present",
     role: "Developer/Project Manager",
     company: "ANTEMATTR",
+    website: "https://antemattr.com/platform/home",
     description: `● Developed tools and automated workflows for agents using Flowise and n8n, enhancing efficiency and functionality.
     ● Designed and implemented custom functions to support advanced agent operations.
     ● Collaborated with team members to integrate new tools into existing systems seamlessly.
@@ -34,6 +35,7 @@ export const EXPERIENCES = [
     year: "May 2022 - August 2022",
     role: "Intern",
     company: "Meritronics",
+    website: 'http://meritronics.com/',
     description: `● Developed and implemented user-friendly quality data forms and reports, streamlining data collection and analysis processes
     ● Designed and delivered a visually intuitive Quality Metrics TV Dashboard, providing real-time insights and enhancing decision-making capabilities
     ● Created a responsive Daily Production Schedule Web App, optimizing resource allocation and increasing operational efficiency`,

@@ -14,7 +14,15 @@ const Experience = () => {
               <h3 className="mb-2 font-semibold">
                 {experience.role} -{" "}
                 <span className="text-sm text-stone-500">
-                  {experience.company}
+                  
+                  <a
+                    href={experience.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className='hover:underline'
+                  >
+                    {experience.company}
+                  </a>
                 </span>
               </h3>
               <p classname="mb-4 text-stone-400">{experience.description}</p>
