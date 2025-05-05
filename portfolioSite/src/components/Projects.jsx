@@ -1,5 +1,8 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 const Projects = () => {
   return (
     <div className="pb-4">
@@ -44,6 +47,16 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-4 text-stone-400 hover:text-stone-200"
+                >
+                  <FontAwesomeIcon icon={faLink} />
+                </a>
+              )}
             </motion.div>
           </div>
         ))}
